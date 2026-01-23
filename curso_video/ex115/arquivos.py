@@ -11,7 +11,7 @@ def arquivoExiste(nome):
 
 def criarArquivo(nome):
     try: 
-        a = open(nome,'wt+')
+        a = open(nome,'wt+')  
         a.close()
     except:
         print('Houve um ERRO na criação do arquivo!')
